@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var d = Date();
+        var dan = d.getDay();
+        
+        switch(dan){
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+            console.log("obican radni dan");
+        break;
+        case 5:
+            console.log("stigao je petak");
+        break;
+        case 6:
+            console.log("Ura subota");
+        break;
+        case 0:
+            console.log("danas me pustite");
+        break;
+        default:
+            console.log("izgleda izmedu");
+        break;
+        }
+
+        </script>
+</body>
+</html>
